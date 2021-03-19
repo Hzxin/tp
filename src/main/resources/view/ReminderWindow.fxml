@@ -39,7 +39,7 @@
                            <Font name="FreeSerif Bold Italic" size="20.0" />
                         </font>
                      </Text>
-                     <TextArea fx:id="contentArea" editable="false" layoutX="54.0" layoutY="121.0" prefHeight="374.0" prefWidth="670.0" styleClass="result-display" wrapText="true">
+                     <TextArea fx:id="contentArea" editable="false" layoutX="54.0" layoutY="121.0" prefHeight="374.0" prefWidth="670.0" wrapText="true">
                         <font>
                            <Font name="FreeSerif Bold Italic" size="20.0" />
                         </font>
