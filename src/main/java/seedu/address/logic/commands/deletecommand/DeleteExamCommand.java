@@ -60,7 +60,7 @@ public class DeleteExamCommand extends DeleteCommand {
             throw new CommandException(Messages.MESSAGE_INVALID_EXAM_DISPLAYED_INDEX);
         }
         Exam assignmentToDelete = moduleToGet.getExam(examIndex.getZeroBased());
-        moduleToGet.deleteExam(examIndex.getZeroBased());
+        model.deleteExam(moduleToGet, assignmentToDelete);
         return new CommandResult(String.format(MESSAGE_DELETE_EXAM_SUCCESS, assignmentToDelete));
     }
 
